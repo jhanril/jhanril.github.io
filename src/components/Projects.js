@@ -4,7 +4,10 @@ import { ProjectCard } from "./ProjectCard";
 import projnespresso from "../assets/img/project-nespresso.png";
 import projlearninglift from "../assets/img/project-learninglift.png";
 import projaljt from "../assets/img/project-aljt.png";
-// import colorSharp2 from "../assets/img/color-sharp2.png";
+import projmanagelandingpage from "../assets/img/project-managelandingpage.png";
+import projcapstone from "../assets/img/project-capstone.png";
+import projoldflio from "../assets/img/project-oldfolio.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,39 +20,47 @@ export const Projects = () => {
       github: "",
       livelink: "https://www.nespresso.ph/",
       imgUrl: projnespresso,
+      bcolor: "rgb(255 228 0)",
     },
     {
       title: "Learning Lift",
-      description: "Build react app using react, bootstrap, and third party api",
+      description: "Frontend practice build LMS(learning management system) using react, bootstrap, and third party api",
       github: "https://github.com/jhanril/learning-lift",
       livelink: "https://learninglift.netlify.app/",
       imgUrl: projlearninglift,
+      bcolor: "#0abed5",
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Build a react app realstate website",
       github: "https://github.com/jhanril/aljtrealty",
       livelink: "https://jhanril.github.io/aljtrealty/",
       imgUrl: projaljt,
+      bcolor: "#0abed5",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      github: "test",
-      livelink: "testlink",
-      imgUrl: projnespresso,
+      title: "Manage Landing Page",
+      description: "Frontend practice from frontend mentor challenge",
+      github: "https://github.com/jhanril/manage-langding-page",
+      livelink: "https://jhanril.github.io/manage-langding-page/",
+      imgUrl: projmanagelandingpage,
+      bcolor: "#0abed5",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      github: "test",
-      livelink: "testlink",
-      imgUrl: projlearninglift,
+      title: "Happy Island",
+      description: "Build a fullstack web app using laravel and react for KodeGo Bootcamp Capstone",
+      github: "https://github.com/jhanril/capstone-project",
+      livelink: "",
+      imgUrl: projcapstone,
+      bcolor: "#0abed5",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projaljt,
+      title: "My old portfolio",
+      description: "My old personal website portfolio",
+      github: "https://github.com/jhanril/portfolio-jhanold",
+      livelink: "https://jhanril.github.io/portfolio-jhanold/",
+      imgUrl: projoldflio,
+      bcolor: "#0abed5",
     },
   ];
 
@@ -61,8 +72,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Projects</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <h2>Projects & Mini Projects</h2>
+                  <p>Cards with a <span style={{ color: "rgb(255 228 0)" }}>gold</span> glowing border is a project from my work experience and <span style={{ color: "#0abed5" }}>blue</span> is my mini project. </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>

@@ -340,7 +340,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 .col > .item > img {
-  width: 50%;
+  width: 150px;
+  height: 135px;
+  object-fit: contain;
 }
 
 /************ Projects Css ************/

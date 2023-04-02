@@ -1,4 +1,9 @@
 import react from "../assets/img/react.svg";
+import bootstrap from "../assets/img/bootstrap.jpg";
+import jquery from "../assets/img/jqeury.jpg";
+import laravel from "../assets/img/laravel.jpg";
+import magento from "../assets/img/magento.jpg";
+import tailwind from "../assets/img/tailwind.jpg";
 
 // import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -37,16 +42,16 @@ export const Skills = () => {
               <p>Currently these are the technologies and frameworks that I have used so far.<br></br> But I am always willing to learn new tech and framework.</p>
               {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"> */}
 
-              <div className="row row-cols-xxl-3 row-cols-md-auto justify-content-center">
+              <div className="row row-cols-xxl-3 row-cols-md-3 row-cols-md-auto justify-content-center">
                 <div className="col">
                   <div className="item">
-                    <img src={react} alt="" />
+                    <img src={laravel} alt="" />
                     <h5>Laravel</h5>
                   </div>
                 </div>
                 <div className="col">
                   <div className="item">
-                    <img src={react} alt="" />
+                    <img src={magento} alt="" />
                     <h5>Magento</h5>
                   </div>
                 </div>
@@ -58,19 +63,19 @@ export const Skills = () => {
                 </div>
                 <div className="col">
                   <div className="item">
-                    <img src={react} alt="" />
+                    <img src={jquery} alt="" />
                     <h5>JQuery</h5>
                   </div>
                 </div>
                 <div className="col">
                   <div className="item">
-                    <img src={react} alt="" />
+                    <img src={tailwind} alt="" />
                     <h5>Tailwind</h5>
                   </div>
                 </div>
                 <div className="col">
                   <div className="item">
-                    <img src={react} alt="" />
+                    <img src={bootstrap} alt="" />
                     <h5>Bootstrap</h5>
                   </div>
                 </div>
