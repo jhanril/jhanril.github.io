@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 // import { Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projnespresso from "../assets/img/project-nespresso.png";
+import projlearninglift from "../assets/img/project-learninglift.png";
+import projaljt from "../assets/img/project-aljt.png";
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,43 +13,43 @@ export const Projects = () => {
   const projects = [
     {
       title: "Nespresso PH",
-      description: "E-commerce website - Magento 2",
-      github: "test",
-      livelink: "testlink",
-      imgUrl: projImg1,
+      description: "Work with the team to build ecommerce website using magento 2",
+      github: "",
+      livelink: "https://www.nespresso.ph/",
+      imgUrl: projnespresso,
+    },
+    {
+      title: "Learning Lift",
+      description: "Build react app using react, bootstrap, and third party api",
+      github: "https://github.com/jhanril/learning-lift",
+      livelink: "https://learninglift.netlify.app/",
+      imgUrl: projlearninglift,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      github: "https://github.com/jhanril/aljtrealty",
+      livelink: "https://jhanril.github.io/aljtrealty/",
+      imgUrl: projaljt,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       github: "test",
       livelink: "testlink",
-      imgUrl: projImg2,
+      imgUrl: projnespresso,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       github: "test",
       livelink: "testlink",
-      imgUrl: projImg3,
+      imgUrl: projlearninglift,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      github: "test",
-      livelink: "testlink",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      github: "test",
-      livelink: "testlink",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projaljt,
     },
   ];
 
